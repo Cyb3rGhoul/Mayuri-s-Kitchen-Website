@@ -9,8 +9,7 @@ Welcome to Mayuri Kitchen, a web application built using React, Tailwind CSS, an
 1. [Introduction](#introduction)
 2. [Features](#features)
 3. [Installation](#installation)
-4. [Usage](#usage)
-5. [Contributing](#contributing)
+4. [Contributing](#contributing)
 
 ## Introduction
 
@@ -67,10 +66,6 @@ Follow the steps below to install and run Mayuri Kitchen on your PC:
    ```
 
    The application will be running at `http://localhost:3000` in your web browser.
-
-## Usage
-
-Once you have the application running, you can explore Mayuri Kitchen, add food items to your cart, place orders, and manage the menu if you have admin access.
 
 ## Contributing
 
