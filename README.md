@@ -36,13 +36,13 @@ Follow the steps below to install and run Mayuri Kitchen on your PC:
 2. **Clone the Repository**: Open your terminal (command prompt) and navigate to the directory where you want to store the project. Then, run the following command to clone the repository:
 
    ```
-   git clone https://github.com/your-username/mayuri-kitchen.git
+   https://github.com/Cyb3rGhoul/Mayuri-s-Kitchen-Website
    ```
 
 3. **Install Dependencies**: Change into the project directory by running:
 
    ```
-   cd mayuri-kitchen
+   cd Mayuri-s-Kitchen-Website
    ```
 
    Next, install the required dependencies:
