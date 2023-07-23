@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap');
+
+html{
+    background-color: #ffffff;
+    color: #555;
+    font-family: 'Montserrat', sans-serif;
+    text-rendering: optimizeLegibility;
+    
+}
+
+.one {
+    z-index: -1;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('/src/assets/images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-shadow: 2px 4px 4px rgba(26, 26, 26, 0.7);
+}
+
+.feature{
+    z-index: -1;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('/src/assets/images/feature.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.feature-heading::after{
+    display: block;
+    height: 2px;
+    background-color: rgb(245, 142, 25);
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.icon-food{
+    color: rgb(245, 142, 25);
+}
+
+.meals-showcase{
+    width: 100%;
+    list-style: none;
+}
+
+.food-list{
+    display: flex;
+    align-items: center;
+    width: 25%;
+    
+}
+.meals-showcase img{
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    opacity: 0.7;
+    border: solid;
+    border-radius: 5px;
+    border-color: rgb(255, 255, 255);
+}
+
+.meal-photo{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+    border-radius: 5px;
+    border: solid 1px;
+    border-color: rgb(255, 255, 255);
+    transition: transform 0.8s, opacity 1s;
+}
+
+.meals-showcase img:hover{
+    opacity: 1;
+    transform: scale(1.03);
+    transition: transform 0.8s, opacity 1s;
+}
+
+.special{
+    z-index: -1;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('/src/assets/images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-shadow: 2px 4px 4px rgba(26, 26, 26, 0.7);
+}
