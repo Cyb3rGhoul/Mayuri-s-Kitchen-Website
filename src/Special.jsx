@@ -1,5 +1,10 @@
 import React from 'react'
-import './css/index.css'
+import './css/index.css';
+import './css/grid.css'
+import './css/normalize.css'
+import './css/col.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Special = () => {
   return (
@@ -27,7 +32,7 @@ const Special = () => {
                     </figure>
                 </li>
             </ul>
-            <ul className="meals-showcase mt-10 px-5">
+            <ul className="meals-showcase twoo mt-10 px-5">
                 <li className='food-list p-px block float-left w-'>
                     <figure className='meal-photo'>
                         <img src={require('./assets/images/5.jpg')} alt="food" />

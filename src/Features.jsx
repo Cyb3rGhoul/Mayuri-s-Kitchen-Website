@@ -2,6 +2,8 @@ import React from 'react'
 import './css/grid.css'
 import './css/index.css'
 import './css/col.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 const Features = () => {
@@ -11,7 +13,7 @@ const Features = () => {
 
     <div className="row text-black pt-36 pl-6 text-white text-right">
         <h2 className='feature-heading text-3xl font-semibold uppercase text-center mb-5'>Get Yummy Food</h2>
-        <p className='leading-8 text-center pl-40 pr-40'>
+        <p className='long-copy leading-8 text-center pl-40 pr-40'>
             Bhook Lagi hai? Aajao burger khila dunga!
             <br />
             Mess Ka khana pasand nahi aaya? Aajao Pizza Khila dunga!

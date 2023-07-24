@@ -7,6 +7,12 @@ import './css/normalize.css'
 import './css/col.css'
 import { BrowserRouter } from 'react-router-dom';
 import { gsap } from 'gsap';
+import './css/index.css';
+import './css/grid.css'
+import './css/normalize.css'
+import './css/col.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
